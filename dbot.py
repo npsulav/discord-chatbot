@@ -4,7 +4,7 @@ from discord.ext import commands
 from chatterbot import ChatBot
 import analyser.reply_generator as ds
 
-BOT_KEY = "" # HERE IS THE API KEY
+BOT_KEY = "ODQ4Nzc1MzM1ODIyODg0ODk0.YLRhoQ.TWI1Ib8d__wXs2_LdKooqjgjUpY"
 client = commands.Bot(command_prefix=">")
 
 chatbot = ChatBot('Quotes Bot',read_only = True, logic_adapters=[
